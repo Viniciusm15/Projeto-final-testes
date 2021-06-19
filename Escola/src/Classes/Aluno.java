@@ -12,6 +12,19 @@ public class Aluno {
 	private String endereco;
 	int camposTratados;
 	
+	public Aluno() {
+		
+	}
+	
+	public Aluno(String nome, int idade, String matricula, int semestre, String endereco) {
+		super();
+		this.nome = nome;
+		this.idade = idade;
+		this.matricula = matricula;
+		this.semestre = semestre;
+		this.endereco = endereco;
+	}
+
 	public int getIdade() {
 		return idade;
 	}

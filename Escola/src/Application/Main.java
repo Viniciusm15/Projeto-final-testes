@@ -54,6 +54,5 @@ public class Main {
 				case 6: TrataDadosAdministrador.ImprimeDadosAdministradores(escola.getAdministradores()); break;
 			}
 		} while (opcao != 0);
-		
 	}
 }
